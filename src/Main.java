@@ -414,25 +414,135 @@ public class Main {
 //
 //
 //        }
+//
+//
+//        int kopaytma = 1;
+//
+//        while (true) {
+//            System.out.print("Son kiriting (0 tugatadi): ");     77-misol;
+//            int son = scanner.nextInt();
+//
+//            if (son == 0) {
+//                break;
+//            }
+//
+//            kopaytma = kopaytma * son;
+//        }
+//
+//        System.out.println("Ko‘paytma: " + kopaytma);
+//
+//
+//        System.out.println("a sonini kiriting (a < b):");          78-qisim;
+//        int a = scanner.nextInt();
+//
+//        System.out.println("b sonini kiriting (b > a):");
+//        int b = scanner.nextInt();
+//
+//        if (a >= b) {
+//            System.out.println("Xatolik: a soni b sonidan kichik bo'lishi kerak.");
+//        } else {
+//            int sonlar = 0;
+//
+//            System.out.println("a dan b gacha bo‘lgan sonlar (a va b ham qo‘shiladi):");
+//            for (int i = a; i <= b; i++) {
+//                System.out.print(i + " ");
+//                sonlar++;
+//            }
+//
+//            System.out.println("Chiqarilgan sonlar soni: " + sonlar);
+//        }
+//
+//        System.out.println("Kamida bitta raqami 8 bo‘lgan 2 xonali sonlar:");
+//
+//        for (int son = 10; son <= 99; son++ ) {                70-misol;
+//            int onlik = son / 10;
+//            int birlik = son % 10;
+//
+//            if (onlik==8||birlik==8){
+//                System.out.println(son+" ");
+//            }
+//
+//
+//        }
+//
+//
+//        System.out.println("onliklar xonasida qatnashgan 7 soni  :");
+//
+//        for (int son  = 100  ; son  <=999 ; son ++) {
+//            int onlik = (son/10)%10;
+//
+//            if (onlik==7){
+//                System.out.println(son+ " ");
+//            }
+//
+//
+//        }
+//
+//        System.out.println(" dsgnljhabsljnszlkvjcn");       81-misol;
+//
+//        for (int son = 10; son <=999 ; son++) {
+//            int yuzlar = son/100;
+//            int birlar = son %10;
+//
+//            if (yuzlar==3 && birlar==3){
+//                System.out.println(son+ "  ");
+//            }
+//
+//        }
 
+//        System.out.println("3 xonali palinndrom sonlar ");
+//
+//        for (int i = 100; i <=999; i++) {
+//            int yuzlik = i/100;
+//            int birlik = i%10;
+//            if (birlik==yuzlik){
+//                System.out.println(i+" ");
+//            }
+//
+//
+//        System.out.println("raqamlar yigindisi 9 yoki 15 bolagan 2 honali sonlar ");
+//
+//        for (int i = 10; i <= 99; i++) {             83-misol;
+//            int onlar = i / 10;
+//            int birlar = i % 10;
+//            int yigindi = onlar + birlar;
+//
+//            if (yigindi == 9 || yigindi == 15) {
+//                System.out.println(i + "");
+//
+//
+//        }
+//    }
+//
+//        System.out.println("3 honali 20 ga teng bolgan sonlar : ");
+//
+//        for (int i = 10; i < 999; i++) {           85-misol;
+//            int onlar = (i/10)%10;
+//            int yuzlar = i/100;
+//            int birlik = i %10;
+//            int yigindi = onlar+yuzlar+birlik;
+//
+//            if (yigindi==20){
+//                System.out.println(i);
+//            }
+//
+//
+//        }
 
-        int kopaytma = 1;
+//
+//   int sanash = 0 ;
+//
+//            for (int i = 100; i <= 999; i++) {        85-misol;
+//                if (i % 3 == 0 && i % 5 == 0) {
+//                    sanash++;
+//                }
+//            }
+//
+//            System.out.println("3 ga va 5 ga bo'linadigan 3 xonali sonlar soni: " + sanash);
+//
+//
 
-        while (true) {
-            System.out.print("Son kiriting (0 tugatadi): ");
-            int son = scanner.nextInt();
-
-            if (son == 0) {
-                break;
-            }
-
-            kopaytma = kopaytma * son;
         }
 
-        System.out.println("Ko‘paytma: " + kopaytma);
-
-
-
-
     }
-}
+
