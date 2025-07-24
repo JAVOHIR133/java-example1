@@ -336,7 +336,7 @@ public class Main {
 
 //        System.out.println("Yig'indi: " + sum);
 
-//        System.out.println("n = ");
+//        System.out.println("n = ");                 72-misol;
 //        int n = scanner.nextInt();
 //
 //        System.out.println("a = ");
@@ -349,6 +349,90 @@ public class Main {
 //        }
 //
 //        System.out.println("natija " +Math.pow(a,n));
+//
+//        System.out.print("a ni kiriting (a < b): ");
+//        int a = scanner.nextInt();
+//
+//        System.out.print("b ni kiriting (b > a): ");
+//        int b = scanner.nextInt();
+//
+//        int kopaytma = 1;
+//        for (int i = a; i <= b; i++) {
+//            kopaytma *= i;
+//        }
+//
+//
+//
+//
+//
+//        int yigindi = 0;                74-misol;
+//
+//
+//        for (int i = 1; i <= 100; i += 2) {
+//            if (i % 3 == 0 && i % 5 != 0) {
+//                yigindi += i;
+//            }
+//        }
+//
+//
+//        System.out.println("Yig‘indi: " + yigindi);
+//
+//
+//        System.out.print("n sonini kiriting: ");             75-misol;
+//        int n = scanner.nextInt();
+//
+//        int son = 1;
+//        boolean topildi = false;
+//
+//        while (son <= n) {
+//            if (son == n) {
+//                topildi = true;
+//                break;
+//            }
+//            son = son * 3;
+//        }
+//
+//        if (topildi) {
+//            System.out.println("3 ning darajasi");
+//        } else {
+//            System.out.println("3 ning darajasi emas");
+//        }
+//
+//
+//        System.out.println("a= ");               76-qisim;
+//        int a = scanner.nextInt();
+//
+//        System.out.println("b= ");
+//        int b = scanner.nextInt();
+//
+//        System.out.println("Natija:");
+//
+//        for (int i = a + 1; i < b; i++) {
+//            if (i % 4 == 0) {
+//                System.out.print(i + " ");
+//            }
+//
+//
+//        }
+
+
+        int kopaytma = 1;
+
+        while (true) {
+            System.out.print("Son kiriting (0 tugatadi): ");
+            int son = scanner.nextInt();
+
+            if (son == 0) {
+                break;
+            }
+
+            kopaytma = kopaytma * son;
+        }
+
+        System.out.println("Ko‘paytma: " + kopaytma);
+
+
+
 
     }
 }
