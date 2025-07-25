@@ -541,8 +541,229 @@ public class Main {
 //            System.out.println("3 ga va 5 ga bo'linadigan 3 xonali sonlar soni: " + sanash);
 //
 //
+//
+//        System.out.println("Raqamlari yig'indisi 12 dan katta bo'lgan ikki xonali sonlar:");
+//
+//        for (int i = 10; i <= 99; i++) {
+//            int birlik = i % 10;
+//            int onlik = i / 10;
+//            int yigindi = birlik + onlik;
+//
+//            if (yigindi > 12) {
+//                System.out.println(i);
+//            }
+//        }
 
-        }
+//
+//        System.out.print("1 kg konfet narxini kiriting: ");
+//        double narx1kg = scanner.nextDouble();
+//
+//
+//        System.out.println("1.1 kg dan 2.0 kg gacha konfet narxlari:");
+//        for (double kg = 1.1; kg <= 2.1; kg += 0.1) {
+//            double narx = kg * narx1kg;
+//            System.out.printf("%.1f kg konfet narxi: %.2f so'm\n", kg, narx);
+//        }
+//    }
+//
+//
+//        System.out.print("N sonini kiriting (N > 1): ");
+//        int N = scanner.nextInt();
+//
+//
+//        if (N <= 1) {
+//            System.out.println("N soni 1 dan katta bo'lishi kerak!");
+//            return;
+//        }
+//
+//        System.out.println("0 dan " + N + " gacha bo‘lgan sonlarning ildizlari:");
+//
+//
+//        for (int i = 0; i <= N; i++) {
+//            double ildiz = Math.sqrt(i);
+//            System.out.printf("%d ning ildizi = %.4f\n", i, ildiz);
+//        }
+//
+//        System.out.println("a= ");
+//        int a = scanner.nextInt();
+//
+//        System.out.println("b= ");
+//        int b = scanner.nextInt();
+//
+//
+//        if (a >= b) {
+//            System.out.println("Xatolik: a soni b sonidan kichik bo'lishi kerak (a < b)");
+//        } else {
+//            int natija = 1;
+//
+//            for (int i = a; i <= b; i++) {
+//                natija = natija * i;
+//            }
+//
+//            System.out.println("a dan b gacha bo‘lgan barcha sonlar ko‘paytmasi: " + natija);
+//        }
+//
+//        System.out.print("1 kg konfet narxini kiriting: ");
+//        double narx = scanner.nextDouble();
+//
+//        System.out.println("0.1 kg dan 1.0 kg gacha konfet narxlari:");
+//
+//        for (double ogirlik = 0.1; ogirlik <= 1.0; ogirlik += 0.1) {
+//            double umumiyNarx = ogirlik * narx;
+//            System.out.printf("%.1f kg konfet narxi: %.2f so'm\n", ogirlik, umumiyNarx);
+//        }
+//
+//
+//        System.out.print("Sonni kiriting: ");
+//        int son = scanner.nextInt();
+//
+//
+//        son = Math.abs(son);
+//
+//
+//        if (son == 0) {
+//            System.out.println("Bu son 1 xonali.");
+//        } else {
+//            int xonalar = 0;
+//            while (son > 0) {
+//                son = son / 10;
+//                xonalar++;
+//            }
+//            System.out.println("Bu son " + xonalar + " xonali.");
+//        }
+//
+//
+//        System.out.print("a ni kiriting: ");         92-misol;
+//        int a = scanner.nextInt();
+//
+//        System.out.print("b ni kiriting: ");
+//        int b = scanner.nextInt();
+//
+//
+//        for (int i = a + 1; i < b; i++) {
+//
+//            for (int j = 0; j < i; j++) {
+//                System.out.print(i + " ");
+//            }
+//        }
+//
+//        System.out.print("n sonini kiriting: ");          93-misol;
+//        int son = scanner.nextInt();
+//
+//        System.out.print("Teskari raqamlar: ");
+//
+//
+//        if (son < 0) {
+//            System.out.print("-");
+//            son = Math.abs(son);
+//        }
+//
+//
+//        while (son > 0) {
+//            int raqam = son % 10;
+//            System.out.print(raqam);
+//            son = son / 10;}
+//
+//        System.out.print("N sonini kiriting: ");      94-misol;
+//        int n = scanner.nextInt();
+//
+//        for (int i = 1; i <= n; i++) {
+//            System.out.println(n);
+//        }
+//
+//
+//        System.out.print("n ni kiriting: ");
+//        int n = scanner.nextInt();
+//
+//        double S = 1.0;
+//
+//        for (double i = 1; i <= n; i+=0.1) {                 //95-misol;
+//            S *=   i;
+//        }
+//
+//        System.out.printf("Natija: %.6f\n", S);
+//
+////
+//
+//        int son;
+//        int sanovchi = 0;
+//
+//        System.out.println("Butun sonlarni kiriting (manfiy son kiritsangiz, dastur to‘xtaydi):");
+//
+//        while (true) {
+//            son = scanner.nextInt();                   //96-misol;
+//
+//            if (son < 0) {
+//                break;
+//            }
+//
+//            if (son % 5 == 0) {
+//                sanovchi++;
+//            }
+//        }
+//
+//        System.out.println("5 ga karrali sonlar soni: " + sanovchi);
+//
+////
+//
+//
+//
+//
+//        System.out.print("Butun son kiriting: ");
+//        int n = scanner.nextInt();
+//
+//
+//        int absN = Math.abs(n);                   97-misol;
+//
+//        int raqamYigindisi = 0;
+//        int raqamlarSoni = 0;
+//
+//
+//        if (absN == 0) {
+//            raqamlarSoni = 1;
+//            raqamYigindisi = 0;
+//        } else {
+//            while (absN > 0) {
+//                int raqam = absN % 10;
+//                raqamYigindisi += raqam;
+//                raqamlarSoni++;
+//                absN /= 10;
+//            }
+//        }
+//
+//        System.out.println("Raqamlar yig'indisi: " + raqamYigindisi);
+//        System.out.println("Raqamlar soni: " + raqamlarSoni);
+//
+//
+//
+//        System.out.print("Butun son kiriting: ");
+//        int son = scanner.nextInt();
+//
+//        son = Math.abs(son);
+//
+//        boolean beshBor = false;
+//
+//        while (son > 0) {
+//            int raqam = son % 10;           98-misol
+//            if (raqam == 5) {
+//                beshBor = true;
+//                break;
+//            }
+//            son = son / 10;
+//        }
+//
+//        if (beshBor) {
+//            System.out.println("Bu sondagi raqamlarda 5 raqami bor.");
+//        } else {
+//            System.out.println("Bu sondagi raqamlarda 5 raqami yo'q.");
+//        }
+//
+
+
+
+
+
+
 
     }
-
+}
