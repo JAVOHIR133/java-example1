@@ -951,28 +951,86 @@ public class Main {
 //                System.out.println("Murakkab son emas");
 //            }
 //        }
+//
+
+
+//        System.out.print("Son kiriting (masalan: 2): ");
+//        int son = scanner.nextInt();
+//
+//        int i = 1;
+//        System.out.println(son + " karra jadvali:");
+//        while (i <= 10) {
+//            System.out.println(son + " x " + i + " = " + (son * i));
+//            i++;
+//        }
+//
+//
+//
+//        System.out.println("sonni kiriting : ");
+//        int son = scanner.nextInt();
+//
+//        while (son <= 10) {
+//            int i = 1;
+//
+//            System.out.println(" " + son + " ning karra jadvali 2 ");
+//
+//
+//            while (i <= 10) {
+//                System.out.println(son + " x " + i + " = " + (son * i));
+//                i++;
+//            }
+//
+//            System.out.println();
+//            son += 2;
+//
+//        }
+//        System.out.print("Son kiriting (masalan: 2): ");
+//        int son = scanner.nextInt();
+//
+//
+//
+//        while (son <= 8) {
+//            System.out.println(son + " karra jadvali:");
+//
+//            int i = 1;
+//            while (i <= 10) {
+//                System.out.println(son + " x " + i + " = " + (son * i));
+//                i++;
+//            }
+//
+//            System.out.println();
+//            son += 2;
+//        }
+//
+//
+//        System.out.println("n kiriting : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 1; i <=n; i++) {
+//            for (int j = 1; j <=n; j++) {
+//                System.out.print(" * ");
+//            }
+//            System.out.println();
+//
+//        }
+//
+//        System.out.println("n kiriting :");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i <n; i++) {
+//            for (int j = 0; j <n; j++) {
+//                if (i==0||i==n-1 || j==0 || j==n-1){
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//
+//            }
+//            System.out.println();
+//
+//        }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     }
-}
