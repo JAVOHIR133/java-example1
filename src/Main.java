@@ -759,6 +759,215 @@ public class Main {
 //        }
 //
 
+//
+//        System.out.print("Butun son kiriting: ");
+//        int son = scanner.nextInt();
+//
+//
+//        if (son < 0) {
+//            System.out.print("-");
+//            son = -son;
+//        }
+
+
+//        System.out.print("Teskari tartibda: ");
+//        if (son == 0) {
+//            System.out.print(0);
+//        } else {
+//            while (son > 0) {
+//                int raqam = son % 10;
+//                System.out.print(raqam);
+//                son = son / 10;
+//            }
+//        }
+//
+//
+//        int n = 465215;               100-misol;
+//        int k = 5;
+//
+//        if (k == 0) {
+//            System.out.println("Error: k 0 ga teng bo'lishi mumkin emas.");
+//            return;
+//        }
+//
+//        int butunQism = 0;
+//        int qoldiq = n;
+//
+//        while (qoldiq >= k) {
+//            qoldiq = qoldiq - k;
+//            butunQism++;
+//        }
+//
+//        System.out.println("n = " + n + ", k = " + k);
+//        System.out.println("Butun qism  = " + butunQism);
+//        System.out.println("Qoldiq  = " + qoldiq);
+//
+//        System.out.println("sonni kiriting :");
+//
+//        int n = Math.abs(scanner.nextInt());            101-misol;
+//        boolean bor = false;
+//
+//        while (n > 0) {
+//            if ((n % 10) % 2 == 0) {
+//                bor = true;
+//                break;
+//            }
+//            n /= 10;
+//        }
+//
+//        System.out.println(bor ? "Juft raqam bor" : "Juft raqam yo'q");
+//
+//
+//        System.out.println("sonlarni kirting : ");
+//        int N= scanner.nextInt();
+//
+//        for (int i = 1; i < N; i++) {               102-misol;
+//            int count = 0;
+//            while (count < i) {
+//                System.out.print(i);
+//                count++;
+//            }
+//            System.out.println();
+//        }
+//
+//
+//        int k = 1;
+//        while (k <= N) {
+//            System.out.print(k);
+//            k++;
+//        }
+
+//        System.out.println("harifni kiriting : ");          103-misol;
+//        int N = scanner.nextInt();
+
+//        for (int i = 0; i < N; i++) {
+//            char harf = (char)('A' + (N - 1 - i));
+//            int soni = N - i;
+//
+//            for (int j = 0; j < soni; j++) {
+//                System.out.print(harf);
+//            }
+//            System.out.println();
+//        }
+//
+//
+//        System.out.println("sonni kiriting : ");           104-misol;
+//        int N = scanner.nextInt();
+//
+//        for (int i = 1; i <= N; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print(j);
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println("sonni kiriting : ");
+//        int N = scanner.nextInt();
+//
+//        for (int i = N; i >= 1; i--) {
+//            for (int j = i; j <= N; j++) {
+//                System.out.print(j);
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println("n sonini kiriting :");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 1; i <=n; i++) {
+//            for (int j = 1; j <i; j++) {
+//                System.out.println("");
+//
+//            }
+//            System.out.println(i);
+//        }
+//
+//
+//        System.out.println("n sonni kiriting :");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i <n; i++) {
+//            for (int j = 0; j<i ; j++) {
+//                System.out.println("");
+//
+//            }
+//            System.out.print(n-i);
+//
+//        }
+
+
+//        System.out.println("n sonini kiriting : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < ; i++) {
+//
+//        }
+//
+//
+//        System.out.print("Sonni kiriting: ");
+//        int n = scanner.nextInt();
+//
+//        boolean tub = true;
+//
+//        if (n <= 1) {
+//            tub = false;
+//        } else {
+//            for (int i = 2; i <= Math.sqrt(n); i++) {
+//                if (n % i == 0) {
+//                    tub = false;
+//                    break;
+//                }
+//            }
+//        }
+//
+//        if (tub) {
+//            System.out.println(n + " tub son.");
+//        } else {
+//            System.out.println(n + " tub emas.");
+//
+//
+//
+//        }
+//
+//
+//        System.out.print("N ni kiriting: ");
+//        int n = scanner.nextInt();
+//
+//        boolean murakkab = false;
+//
+//        if (n <= 1) {
+//            System.out.println("Murakkab emas");
+//        } else {
+//            for (int i = 2; i < n; i++) {
+//                if (n % i == 0) {
+//                    murakkab = true;
+//                    break;
+//                }
+//            }
+//
+//            if (murakkab) {
+//                System.out.println("Murakkab son");
+//            } else {
+//                System.out.println("Murakkab son emas");
+//            }
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
