@@ -1029,8 +1029,107 @@ public class Main {
 //            System.out.println();
 //
 //        }
+//
+//        System.out.println("n kiritng : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (i==0||i==n-1 || j==0 || j==n-1){
+//                    System.out.println("*");
+//                }else {
+//                    System.out.println("");
+//                }
+//
+//
+//            }
+//            System.out.println();
+//        }
+//        System.out.println("n kiriting :");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i <n; i++) {
+//            for (int j = 0; j <n; j++) {
+//                if (i%2==0||j==n/2||j==0||j==n-1){
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//
+//            }
+//            System.out.println();
+//
+//        }
+//
+//        System.out.println("sonni kiriting : ");
+//        int N = scanner.nextInt();
+//        for (int i = 0; i < N; i++) {
+//            for (int j = 0; j < N; j++) {
+//
+//                if (j == 0 || j == N - 1 || i == N/2) {
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//
+//        System.out.println("sonni kiriitng : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (i==j ||i+j==n-1){
+//                    System.out.print("*");
+//                }else {
+//                    System.out.print("");
+//                }
+//
+//            }
+//            System.out.println();
+//
+//
+//        System.out.print("n sonini kiriting : ");
+//        int n = scanner.nextInt();
+//
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (i == j || i + j == n - 1) {
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//       }
+
+//        System.out.print("n sonini kiriting: ");
+//        int n = scanner.nextInt();
+//
+//
+//        for (int i = n; i >= 1; i--) {
+//            for (int j = 1; j <= n - i + 1; j++) {
+//                System.out.print(i);
+//            }
+//            System.out.println();
+//        }
+
+//
+        System.out.println("sonni kiriting : ");
+        int n = scanner.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
 
 
+            }
 
         }
+
+
+
     }
+}
