@@ -1118,18 +1118,144 @@ public class Main {
 //        }
 
 //
-        System.out.println("sonni kiriting : ");
-        int n = scanner.nextInt();
+//        System.out.println("sonni kiriting : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = rd5
+//            }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+//        }
+
+//
+//        System.out.print("N sonini kiriting: ");
+//        int N = scanner.nextInt();
+//
+//
+//        for (int i = N; i >= 1; i--) {
+//
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//
+//
+//        System.out.println("sonni kiriting : ");
+//        int n = scanner.nextInt();
+//        for (int i = 0; i < n; i++) {
+//
+//            for (int j = 0; j < i; j++) {
+//                System.out.print(" ");
+//            }
+//
+//
+//            for (int k = 0; k < n - i; k++) {
+//                System.out.print("*");
+//            }
+//
+//    }
+//
+//
+//        System.out.println("sonni kiriting : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (i+j>=4) {
+//                    System.out.print("*");
+//                }else {
+//                    System.out.print(" ");               120-MISOL
+//                }
+//            }
+//            System.out.println();
+
+//        }
+
+//
+//        System.out.println("sonni kiriitng : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (j+i<=4){
+//
+//                    System.out.print("*");
+//                }else {
+//                    System.out.print("");
+//                }
+//            }
+//            System.out.println();
+//
+//        }
+
+//
+//        System.out.print("n ni kiriting: ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (i ==j || i==n-1 || j==+1   ) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
 
 
-            }
+//        }
 
-        }
+
+//
+//        System.out.print("1-sonni kiriting: ");
+//        int a = scanner.nextInt();
+//
+//        System.out.print("2-sonni kiriting: ");
+//        int b = scanner.nextInt();
+
+//
+//
+//        while (a != b) {
+//            if (a > b) {
+//                a = a - b;
+//            } else {
+//                b = b - a;
+//            }
+//        }
+//
+//        System.out.println("EKUB = " + a);
+//
+//
+//        System.out.println("sonni kiriting : ");
+//        int son = scanner.nextInt();
+//        int umumiy=0;
+//
+//        for (int i = 1; i <=son; i+=2) {
+//            umumiy+=i*i;
+//
+//
+//
+//
+//        }
+//        System.out.println(umumiy);
+//
+//        int[] array =new int[]{1,5,15,-6,-9};
+//
+//        System.out.println("sonni kiriting : ");
+//        int son = scanner.nextInt();
+//
+//        int musbatsonlar =0 ;
+//        for (int i = 0; i <= son; i++) {
+//         musbatsonlar++;
+//
+//        }if (son<=0){
+//            System.out.println(array);
+//        }
+
 
 
 
     }
+
 }
