@@ -1253,9 +1253,58 @@ public class Main {
 //            System.out.println(array);
 //        }
 
+//
+//      int nums [];
+//      nums=new int [4];
+//      int son []=new int [6];
+//      nums=new int []{2,4,6,5};//nums [0]
+//        System.out.println(nums[2]);
+//
+//
+//        int[] array =new int[]{3,4,3,5,-9,7};
+//        System.out.println("sonni kiriting : "+array[4]);
+//        int summ=0;
+//        for (int j : array) {
+//            if (j > 0) {
+//                summ++;
+//            }
+//        }
+//        System.out.println(summ);
+//
+//        int[]massiv = new int[5];
+//        massiv[0]=3;
+//        massiv[1]=-9;
+//        massiv[4]=5;
+
+
+//        System.out.print("n ni kiriting: ");
+//        int n = scanner.nextInt();
+//
+//       int summ = 0;
+//
+//        for (int i = 1; i <= n; i++) {
+//            summ += 1 / i;
+//        }
+//
+//        System.out.println(" S = " + summ);
+
+        System.out.println("a = ");
+        int a = scanner.nextInt();
+
+        System.out.println("b = ");
+        int b = scanner.nextInt();
 
 
 
+        for (int i = a; i <= b; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(i);
+
+
+            }
+        }
+
+            
+        }
     }
 
-}
