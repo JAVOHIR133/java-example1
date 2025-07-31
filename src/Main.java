@@ -1287,24 +1287,68 @@ public class Main {
 //        }
 //
 //        System.out.println(" S = " + summ);
+//
+//        System.out.println("a = ");
+//        int a = scanner.nextInt();
+//
+//        System.out.println("b = ");
+//        int b = scanner.nextInt();
+//
+//
+//
+//        for (int i = a; i <= b; i++) {
+//            for (int j = 0; j < i; j++) {
+//                System.out.print(i);
+//
+//
+//            }
+//         }
+//
+//        System.out.print("N sonini kiriting: ");
+//        int N = scanner.nextInt();
+//
+//
+//        for (int i = 0; i <= N; i++) {
+//
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("@");
+//
+//            }
+//            System.out.println();
+//        }
+//
+//
+//        System.out.println("sonni kiriting : ");
+//        int n = scanner.nextInt();
+//        int tubson = 0 ;
+//
+//
+//
+//        for (int i = 1; i <= n; i++) {
+//            if(n%i==0){
+//                tubson++;
+//            }
+//        }
+//
+//        if (tubson==2){
+//            System.out.println("tub");
+//        } else {
+//            System.out.println("murakkab");
+//        }
 
-        System.out.println("a = ");
-        int a = scanner.nextInt();
-
-        System.out.println("b = ");
-        int b = scanner.nextInt();
-
-
-
-        for (int i = a; i <= b; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.print(i);
-
-
+        System.out.println("sonni kiriting : ");
+        int n = scanner.nextInt();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == j || i + j == n - 1) {
+                    System.out.print("6");
+                } else {
+                    System.out.print(" ");
+                }
             }
-        }
+            System.out.println();
+       }
 
-            
         }
     }
 
