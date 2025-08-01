@@ -1335,20 +1335,110 @@ public class Main {
 //        } else {
 //            System.out.println("murakkab");
 //        }
+//
+//        System.out.println("sonni kiriting : ");
+//        int n = scanner.nextInt();
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                if (i == j || i + j == n - 1) {
+//                    System.out.print("6");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//       }
+//
+//        System.out.println("sonni kiriitng : ");
+//        int n = scanner.nextInt();
+//
+//        for (int i = 0; i <=n; i++) {
+//            for (int j = 0; j <=n; j++) {
+//                if (i==0||i==n-1||j==n-1){
+//                    System.out.println("4");
+//                }else {
+//                    System.out.println(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
 
-        System.out.println("sonni kiriting : ");
-        int n = scanner.nextInt();
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i == j || i + j == n - 1) {
-                    System.out.print("6");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-       }
+//        System.out.println("Sonlarni kiriting: ");            134-misol;
+//        int n = scanner.nextInt();
+//        int summa = 0;
+//
+//        for (int i = 0; i < n; i++) {
+//            int son = scanner.nextInt();
+//
+//            if (son == 0) {
+//                break;
+//            }
+//
+//            if (son > 0) {
+//                summa += son;
+//            }
+//        }
+//
+//        System.out.println("Umumiy summa = " + summa);
 
-        }
+//                System.out.println("Sonlarni kiriting: ");
+//        int n = scanner.nextInt();
+//        int summa = 0;
+//
+//        for (int i = 0; i < n; i++) {
+//            int son = scanner.nextInt();
+//
+//            if (son == 0) {
+//                break;
+//            }
+//
+//            if (son > 0) {
+//                summa += son;
+//            }
+//        }
+//
+//        int[] sonlar = new int[1000];
+//        int yigindi = 0;
+//
+//        System.out.println("Sonlarni kiriting (0 tugatadi):");
+//
+//        for (int i = 0; i < sonlar.length; i++) {
+//            int son = scanner.nextInt();
+//            if (son == 0) {
+//                break;
+//            }
+//            if (son > 0) {
+//
+//                yigindi += son;
+//            } else {
+//                System.out.println(" ");
+//
+//            }
+//        }
+//
+//        System.out.println("Yig'indi = " + yigindi);
+//
+
+//        String matn = "C++ lang**23sdsd*";
+//
+//
+//        int yulduzchaSoni = 0;
+//
+//
+//        for (int i = 0; i < matn.length(); i++) {
+//
+
+//            if (belgi.equals("*")) {
+//                yulduzchaSoni++;
+//            }
+//        }
+//
+//
+//        System.out.println("Yulduzcha belgisi soni: " + yulduzchaSoni);
+
+        
+
+
     }
+}
 
