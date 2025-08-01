@@ -1453,26 +1453,32 @@ public class Main {
 //        }
 //        System.out.println(count);
 
-        String str = "AbC5#zY";  // misol matn
-        int katta = 0;
-        int kichik = 0;
-        int boshqa = 0;
+//        String str = "AbC5#zY";  // misol matn
+//        int katta = 0;
+//        int kichik = 0;
+//        int boshqa = 0;
+//
+//        for (int i = 0; i < str.length(); i++) {
+//            char belgi = str.charAt(i);
+//
+//            if (belgi >= 'A' && belgi <= 'Z') {
+//                katta++;
+//            } else if (belgi >= 'a' && belgi <= 'z') {
+//                kichik++;
+//            } else {
+//                boshqa++;
+//            }
+//        }
+//
+//        System.out.println("Katta harf soni: " + katta);
+//        System.out.println("Kichik harf soni: " + kichik);
+//        System.out.println("Harf emas belgilar soni: " + boshqa);
+//
 
-        for (int i = 0; i < str.length(); i++) {
-            char belgi = str.charAt(i);
 
-            if (belgi >= 'A' && belgi <= 'Z') {
-                katta++;
-            } else if (belgi >= 'a' && belgi <= 'z') {
-                kichik++;
-            } else {
-                boshqa++;
-            }
-        }
+        
 
-        System.out.println("Katta harf soni: " + katta);
-        System.out.println("Kichik harf soni: " + kichik);
-        System.out.println("Harf emas belgilar soni: " + boshqa);
+
 
 
     }
