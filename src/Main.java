@@ -1453,7 +1453,7 @@ public class Main {
 //        }
 //        System.out.println(count);
 
-//        String str = "AbC5#zY";  // misol matn
+//        String str = "AbC5#zY";  // misol matn             136-misol;
 //        int katta = 0;
 //        int kichik = 0;
 //        int boshqa = 0;
@@ -1461,12 +1461,11 @@ public class Main {
 //        for (int i = 0; i < str.length(); i++) {
 //            char belgi = str.charAt(i);
 //
-//            if (belgi >= 'A' && belgi <= 'Z') {
+//            if (belgi >= 'A' && belgi <= 'B') {
 //                katta++;
-//            } else if (belgi >= 'a' && belgi <= 'z') {
+//            } else if (belgi >= 'a' && belgi <= 'b') {
 //                kichik++;
-//            } else {
-//                boshqa++;
+//
 //            }
 //        }
 //
@@ -1475,12 +1474,194 @@ public class Main {
 //        System.out.println("Harf emas belgilar soni: " + boshqa);
 //
 
+//
+//        int[] sonlar = new int[5];
+//
+//        System.out.println("5 ta son kiriting:");
+//        for (int i = 0; i < sonlar.length; i++) {
+//            System.out.print((i + 1) + "-son: ");
+//            sonlar[i] = scanner.nextInt();
+//        }
+//
+//
+//        int engKatta = sonlar[sonlar.length - 1];
+//        int ikkinchiKatta = engKatta;
+//
+//
+//        for (int i = sonlar.length - 2; i >= 0; i--) {
+//            if (sonlar[i] < engKatta) {
+//                ikkinchiKatta = sonlar[i];
+//
+//
+//            }
+//        }
 
-        
+//        System.out.print("Satr kiriting: ");
+//        String str = scanner.nextLine();
+//
+//        StringBuilder faqatRaqamlar = new StringBuilder();
+//
+//        for (int i = 0; i < str.length(); i++) {
+//            char belgi = str.charAt(i);
+//            if (Character.isDigit(belgi)) {
+//                faqatRaqamlar.append(belgi);
+//            }
+//        }
+//
+//        System.out.println("Faqat raqamlar: " + faqatRaqamlar);
+//
+
+//
+//        System.out.print("Matn kiriting: ");           142-misol;
+//        String matn = scanner.nextLine();
+//
+//        int sanash = 0;
+//
+//
+//        matn = matn.toUpperCase();
+//
+//        for (int i = 0; i < matn.length(); i++) {
+//            if (matn.charAt(i) == 'A') {
+//                sanash++;
+//            }
+//        }
+//
+//        System.out.println("'A' harfi soni: " + sanash+" ta");
+//
+//
+
+
+//        System.out.print("So'z kiriting: ");      143-misol;
+//        String matn = scanner.nextLine();
+//
+//        String natija = "";
+//
+//        for (int i = 0; i < matn.length(); i++) {
+//            char belg = matn.charAt(i);
+//            if (belg == 'a') {
+//                natija = natija + 'b';
+//            } else if (belg == 'b') {
+//                natija = natija + 'd';
+//            } else {
+//                natija = natija + belg;
+//            }
+//        }
+//
+//        System.out.println("Natija: " + natija);
+//
+
+//        String str1 = "salom F-5 guruhi";
+//        String str2 = "13553";
+//
+//        System.out.println(countFives(str1));
+//        System.out.println(countFives(str2));
+//    }
+//
+//    static int countFives(String str) {
+//        int count = 0;
+//        for ( int i = 0; i < str.length(); i++){
+//            int  c = 0;
+//            {
+//                if (c == '5') count++;
+//            }
+//        }
+
+
+//        int engKichik, engKatta, son;
+//
+//        System.out.print("1-sonni kiriting: ");
+//        son = scanner.nextInt();
+//        engKichik = son;
+//        engKatta = son;
+//
+//        for (int i = 1; i <= 6; i++) {
+//            System.out.print(i + " sonni kiriting: ");
+//            son = scanner.nextInt();
+//
+//            if (son < engKichik) {
+//                engKichik = son;
+//            }
+//
+//            if (son > engKatta) {
+//                engKatta = son;
+//            }
+//        }
+//
+//        System.out.println("Eng kichik son: " + engKichik);
+//        System.out.println("Eng katta son: " + engKatta);
+
+
+//
+//        System.out.print("Iltimos, biror satr kiriting: ");
+//        String satr = scanner.nextLine();
+//
+//
+//        String kattaHarfSatr = satr.toUpperCase();
+//
+//
+//        System.out.println("Katta harflarga aylantirilgan satr: " + kattaHarfSatr);
+//
+//
+//
+//
+//        String[] satrlar = {                151-misol;
+//                "a78rDfrttsd54",
+//                "rrAAD45aatt",
+//                "112233r==ttrjj"
+//        };
+//
+//        for (String s : satrlar) {
+//           String natija = "";
+//            int count = 0;
+//
+//            for (int i = 0; i < s.length(); i++) {
+//                char belgi = s.charAt(i);
+//                if (Character.isLowerCase(belgi)) {
+//                    natija += belgi;
+//                    count++;
+//
+//                }
+//
+//
+//        System.out.println("raqamlarni kiriting : ");
+//        String satr = scanner.nextLine();
+//
+//        if (satr.length()>8){
+//            System.out.println("pdp");
+//        }else {
+//            System.out.println("ACADEMY");
+//        }
+//
+//        String str = "pdp2022foundation"; // bu yerga o'zingiz istagan matnni yozing
+//        int sum = 0;
+//
+//        for (int i = 0; i < str.length(); i++) {
+//            char c = str.charAt(i);
+//            {
+//                sum += c;
+//            }
+//        }
+//
+//        System.out.println(sum);
+//
+//
+//    }
+
+//    {
 
 
 
+        System.out.println("Yilni kiriting: ");
+        int yil = scanner.nextInt();
+
+        if (yil % 4 ==0) {
+            System.out.println("Kabisa yil");
+        } else {
+            System.out.println("Kabisa emas");
+        }
+
+
+
+        }
 
     }
-}
-
